@@ -10,4 +10,7 @@
   </div>
   <br />
   <button type="submit" [disabled]="!profileForm.valid">Submit</button>
+  <button type="button" [disabled]="!profileForm.valid" (click)="onClick()">
+    Click
+  </button>
 </form>

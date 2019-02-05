@@ -18,6 +18,12 @@ export class ProfileEditorComponent {
     })
   });
   onSubmit() {
+    console.warn("Subimit:");
+    console.warn(this.profileForm.value);
+  }
+
+  onClick() {
+    console.warn("Click: ");
     console.warn(this.profileForm.value);
   }
 }
